@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\app.2d04c7de4bb5a692c5b8.js" />
+    <None Include="wwwroot\js\manifest.1466a19ac23135284e51.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\vendor.3b3e7214ecba9a6628df.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
+  </ItemGroup>
+
+</Project>
